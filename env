@@ -1,0 +1,29 @@
+# Environment Configuration
+NODE_ENV=development
+PORT=3001
+
+# Database
+MONGODB_URI=mongodb://localhost:27017/bookkeeping
+
+# JWT Secret (not used in this version but good to have)
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+
+# Email Configuration (for sending receipts)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-app-password
+
+# File Upload
+MAX_FILE_SIZE=5MB
+UPLOAD_PATH=./uploads
+
+# VAT Rate (Israel - 17%)
+VAT_RATE=0.17
+
+# Company Information
+COMPANY_NAME=חברת הנהלת החשבונות
+COMPANY_ADDRESS=רחוב הבנקים 123, תל אביב
+COMPANY_PHONE=03-1234567
+COMPANY_EMAIL=info@company.co.il
+COMPANY_VAT_ID=123456789
