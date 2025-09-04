@@ -8,23 +8,3 @@ package-lock.json
 dist/
 build/
 *.tsbuildinfo
-
-# Logs
-logs
-*.log
-
-# Optional npm cache directory
-.npm
-
-# Editor directories and files
-.vscode/
-
-# Keep important JSON files
-!tsconfig.json
-!*.config.json
-connection/
-knexfile.js
-
-
-
-
