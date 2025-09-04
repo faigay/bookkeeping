@@ -1,0 +1,45 @@
+{
+  "name": "bookkeeping-system",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "seed": "ts-node src/utils/seedData.ts",
+    "test": "jest",
+    "start": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "@types/multer": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^6.9.0",
+    "pdfkit": "^0.13.0",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.8.1",
+    "zone.js": "^0.14.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.0",
+    "@angular/cli": "^17.3.12",
+    "@angular/compiler-cli": "^17.3.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/pdfkit": "^0.17.2",
+    "@types/supertest": "^6.0.3",
+    "jest": "^29.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
